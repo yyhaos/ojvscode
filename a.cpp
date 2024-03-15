@@ -39,6 +39,16 @@ ll ksm(ll a,ll b)
     }
     return ans;
 }
+struct S {
+    ll a, b;
+    bool operator<(const S& other) const {
+        if(a == other.a) {
+            return b > other.b;// 注意这里使用 '>' 是为了实现最小堆，即 b 较小的在前
+        }
+        return a > other.a;  // 注意这里使用 '>' 是为了实现最小堆，即 a 较小的在前
+    }
+};
+priority_queue<S> pq;
 
 ll t,n,m,k;
 ll us[10]={6,2,5,5,4,5,6,3,7,6};
