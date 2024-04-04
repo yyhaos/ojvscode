@@ -62,7 +62,8 @@
     "iostream": "cpp",
     "ostream": "cpp",
     "rope": "cpp",
-    "chrono": "cpp"
+    "chrono": "cpp",
+    "random": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
