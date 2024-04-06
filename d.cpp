@@ -49,18 +49,19 @@ struct S {
     }
 };
 priority_queue<S> pq;
-
 ll t,n,m,k;
-ll us[10]={6,2,5,5,4,5,6,3,7,6};
-const ll N = 100005;
+
+
+const ll N = ;
 ll c[N];
 int main ()
 {
 #ifdef yyhao
     freopen("in.txt","r",stdin);
-    //freopen("out.txt","w",stdout);
+    freopen("out.txt","w",stdout);
     cout<<"Time:"<<currentDateTime()<<endl;
 #endif
+
 #define use_t
 #ifdef use_t
 int ii=1;
@@ -69,13 +70,10 @@ for(ii=1;ii<=t;ii++)
 { 
 #endif // use_t
     cin>>n;
-    mem(c,0);
     rep(i,1,n)
     {
         cin>>c[i];
     }
-    cout<<n<<endl;
-    // cout<<c[1]<<endl;
 #ifdef use_t
 }
 #endif // use_t
