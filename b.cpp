@@ -21,6 +21,7 @@ const std::string currentDateTime() {
 #define crep(i,x,y) for(int i=x;i>=y;i--)
 #define gcd(x,y) __gcd(x,y)
 #define mem(x,y) memset(x,y,sizeof(x))
+#define vc vector
 //#define use_t 1
 const double PI=acos(-1.0);
 const double eps=1e-8;
