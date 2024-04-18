@@ -17,8 +17,8 @@ const std::string currentDateTime() {
 #endif
 #define ll long long
 #define lowbit(x) (x&-x)
-#define rep(i,x,y) for(int i=x;i<=y;i++)
-#define crep(i,x,y) for(int i=x;i>=y;i--)
+#define rep(i,x,y) for(ll i=x;i<=y;i++)
+#define crep(i,x,y) for(ll i=x;i>=y;i--)
 #define gcd(x,y) __gcd(x,y)
 #define mem(x,y) memset(x,y,sizeof(x))
 #define vc vector
