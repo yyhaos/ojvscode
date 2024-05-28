@@ -2,20 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++: g++.exe build and debug active file",
       "type": "cppdbg",
+      "MIMode": "lldb",
+      "name": "C/C++: g++.exe build and debug active file",
       "request": "launch",
       "program": "${fileDirname}/build/Debug/outDebug",
       "args": [
-        "&",
-        "pause"
       ],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
       "environment": [],
       "externalConsole": true,
-      "MIMode": "gdb",
-      "miDebuggerPath": "C:\\mingw64\\bin\\gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",
@@ -37,8 +34,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/zby15/Desktop/ojvscode",
-      "program": "c:/Users/zby15/Desktop/ojvscode/build/Debug/outDebug",
+      "cwd": "~/Desktop/ojvscode",
+      "program": "~/Desktop/ojvscode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

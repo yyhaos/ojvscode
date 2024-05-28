@@ -54,7 +54,7 @@ priority_queue<S> pq;
 ll t,n,m,k;
 
 
-const ll N = ;
+const ll N = 123;
 ll c[N];
 int main ()
 {
